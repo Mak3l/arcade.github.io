@@ -27,7 +27,7 @@
 }
 
 /* Container styles */
-.supercontainer {
+.super-container {
     color:#4ed157;
     width: auto;
     height: auto;
@@ -47,12 +47,12 @@
     flex-grow: 1;
 }
 
-.containerimage {
+.container-image {
     max-width: 100%;
     max-height: 100%;
 }
 
-.containertext {
+.container-text {
     color:#4ed157;
     max-width: 100%;
     border-style: dotted;
