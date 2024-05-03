@@ -1,18 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../styles/spaceinvaders.css">
-    
-    
-    <title>Space Invaders</title>
-  </head>
-  <body>
-    <a href="../index.html"><h1>Home</h1></a>
-    <h1>Score:</h1>
-    <h1 class="results">0</h1>
-    <div class="grid"></div>
-    <script src="../scripts/spaceinvaders.js"></script>
-  </body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../styles.css">
+        <link rel="stylesheet" href="../styles/spaceinvaders.css">
+        <title>Space Invaders</title>
+    </head>
+    <body id="body">
+        <header id="header">
+            <img src="../images/SpaceInvadersMarquee.jpg" alt="Space Invaders Marquee" class="marquee">
+        </header>
+
+        <nav id="navigation">
+            <h2>
+                <a href="../index.html"><button class="button">RETURN TO MAIN MENU</button></a>
+            </h2>
+        </nav>
+
+        <main id="main">
+            <section class="banner"></section>
+
+            <section class="super-container">
+                <section class="container">
+                    <h1 class="results">Score: 0</h1>
+                    <div class="grid"></div>
+                    <script src="../scripts/spaceinvaders.js"></script>
+                </section>
+            </section>
+
+            <section class="banner"></section>        
+        </main>
+        
+        <footer id="footer">
+            <p>Copyright &copy; Retro Space Arcade 2024</p>
+        </footer>
+    </body>
 </html>

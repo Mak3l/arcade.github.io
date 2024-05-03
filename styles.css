@@ -1,6 +1,10 @@
 /* styles.css */
 
 /* Main content styles */
+.marquee {
+    max-width: 100%;
+}
+
 .banner {
     width: 150%;
     background-image: url('images/SpaceBackground.jpg');

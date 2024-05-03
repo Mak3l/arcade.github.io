@@ -115,7 +115,7 @@ function shoot(e) {
             const alienRemoved = alienInvaders.indexOf(currentLaserIndex)
             aliensRemoved.push(alienRemoved)
             results++
-            resultDisplay.innerHTML = results
+            resultDisplay.innerHTML = "Score: " + results
         }
     }
 
