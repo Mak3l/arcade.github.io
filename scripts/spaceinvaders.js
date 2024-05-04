@@ -105,7 +105,7 @@ function moveInvaders() {
     if (aliensRemoved.length === alienInvaders.length) {
         roundCounter++;
         newRoundCheck = 1;
-        roundDisplay.innerHTML = "Round: " + roundCounter;
+        roundDisplay.innerHTML = "Round: " + roundCounter + " ";
         clearInterval(invadersId);
     }
 }
@@ -145,11 +145,11 @@ function shootLaser(e) {
             const alienRemoved = alienInvaders.indexOf(currentLaserIndex);
             aliensRemoved.push(alienRemoved);
             results++;
-            scoreDisplay.innerHTML = "Score: " + results;
+            scoreDisplay.innerHTML = " Score: " + results;
         }
     }
 
-    if (e.key === "ArrowDown") {
+    if (e.key === 'f') {
         laserId = setInterval(moveLaser, 100);
     }
 }

@@ -30,6 +30,13 @@
 
 .scoreboard {
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-between;
     flex-grow: 1;
+}
+
+.divider {
+    padding-top: 0px;
+    padding-right: 30px;
+    padding-bottom: 0px;
+    padding-left: 30px;
 }
