@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../styles/coinflip.css">
+        <script src="../scripts/coinflip.js"></script>
+        <title>Coin Flip</title>
+    </head>
+    <body id="body">
+        <header id="header">
+            <h1>Coin Flip</h1>
+        </header>
+
+        <nav id="navigation">
+            <h2>
+                <a href="../index.html"><button class="button">RETURN TO MAIN MENU</button></a>
+            </h2>
+        </nav>
+
+        <main id="main">
+            <section class="banner"></section>
+
+            <section class="super-container">
+                <section class="container">
+                    <section class="scoreboard">
+                        <h3 id="output">See who can get more heads.</h3>
+                    </section>
+                    
+                    <section class="cpuBoard">
+                        <h3>CPU:</h3>
+                        <section id="cpuCoin1" class="coin">H</section>
+                        <section id="cpuCoin2" class="coin">H</section>
+                        <section id="cpuCoin3" class="coin">H</section>
+                    </section>
+
+                    <section class="yourBoard">
+                        <h3>You:</h3>
+                        <section id="playerCoin1" class="coin">H</section>
+                        <section id="playerCoin2" class="coin">H</section>
+                        <section id="playerCoin3" class="coin">H</section>
+                    </section>
+
+                    <section>
+                        <button id="rollDice" class="button" onclick="gameLoop()">Flip Coin</button>
+                    </section>
+                </section>
+            </section>
+
+            <section class="banner"></section>        
+        </main>
+        
+        <footer id="footer">
+            <p>Copyright &copy; Retro Space Arcade 2024</p>
+        </footer>
+    </body>
+</html>
